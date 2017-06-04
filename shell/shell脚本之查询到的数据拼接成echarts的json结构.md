@@ -14,7 +14,7 @@ time	A	B	C	D
 
 genderEcharJsonByQueryData.py
 
-[Python脚本](/genderEcharJsonByQueryData.py)
+[Python脚本](/shell/genderEcharJsonByQueryData.py)
 
 脚本传递的参数：
 * 参数1：数据存放的文件（全路径）
