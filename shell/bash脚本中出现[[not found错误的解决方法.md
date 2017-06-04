@@ -1,3 +1,4 @@
+转自：http://www.cnblogs.com/njuzhoubing/p/4186190.html
 
 今天在写脚本的时候，发生了一个奇怪的问题：在脚本中使用[[的时候报错“[[: not found”。遇到问题自然是解决问题。
 
