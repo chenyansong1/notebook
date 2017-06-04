@@ -46,7 +46,7 @@ mysql> select type, sum(1) sum from tb_paidashi_pay_model_day where dt=20170516 
 使用count统计
 
 ```
-	SELECT
+    SELECT
     count(case type  when 1 then 1 else NULL END) as  'type_1',
     count(case type  when 2 then 1  else NULL END) as  'type_2',
     count(case type  when 3 then 1 else NULL END) as  'type_3',
@@ -62,7 +62,7 @@ mysql> select type, sum(1) sum from tb_paidashi_pay_model_day where dt=20170516 
 
 这里需要注意的问题是count遇到null的时候，会不去统计，如果我们将null变成0，那么结果如下：
 ```
-	SELECT
+   SELECT
 	  count(case type  when 1 then 1 else 0 END) as  'type_1',
 	  count(case type  when 2 then 1  else 0 END) as  'type_2',
 	  count(case type  when 3 then 1 else 0 END) as  'type_3',
