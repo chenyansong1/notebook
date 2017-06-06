@@ -83,7 +83,8 @@ ERROR 1114 (HY000): The table '#sql-738_19' is full
 
 根据电脑性能不能所花时间不一样，大概时间在小时级别，如果报错内存满了，只在修改max_heap_table_size 个参数即可，win7修改位置如下
 
-![](/images/mysql/mysql 快速生成百万条测试数据.png)
+![](/images/mysql/mysql%20快速生成百万条测试数据.png)
+
 
 
 linux，修改my.cnf文件，修改后要重启mysql，重启后内存表数据会丢失
